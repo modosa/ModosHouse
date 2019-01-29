@@ -1,0 +1,364 @@
+html {
+    background-color: #fff;
+    color: #898989;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+section {
+    padding: 50px 0;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(./assets/img/bg.jpg);
+    background-size: cover;
+    height: 1080px;
+    background-attachment: fixed;
+}
+
+.navbar-nav li a:link,
+.navbar-nav li a:visited {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 80%;
+    border-bottom: 2px solid #fff;
+    transition: border 0.2s;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:active {
+    color: #fff;
+    border-bottom: 2px solid #4e92eb;
+}
+
+.text-box {
+    /* position: absolute;
+    top: 60%;
+    left: 25px; */
+    color:  #fff;
+}
+
+#house01 {
+    resize: both;
+    /* display: block; */
+    max-width: auto;
+    max-height: 100vh;
+    /* width: 350px;
+    height: 525px; */
+}
+
+#mainsheet {
+    width: 92%;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+
+}
+
+/* ----------------------------------
+
+                HEADINGS
+
+------------------------------------- */
+
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 300%;
+    color: #fff;
+    /* word-spacing: 4px;
+    letter-spacing: 1px; */
+}
+
+/* h2 {
+
+}
+
+h3 {
+
+} */
+
+
+/* ----------------------------------
+
+                BUTTONS
+
+------------------------------------- */
+
+.btn:link,
+.btn:visited{
+    /* display: inline-block; */
+    padding: 10px 30px;
+    font-weight: 300%;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.35s, border 0.5s, color 0.5s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #4e92eb;
+    border: 1px solid #4e92eb;
+    color: #fff;
+    margin-right: 15px;
+}
+
+/* .btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+} */
+
+.btn:hover,
+.btn:active{
+    background-color: #2466ca;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #2466ca;
+}
+
+/* .btn-ghost:hover,
+.btn-ghost:active {
+    color: #fff;
+    border: 1px solid #cf6d17;
+} */
+
+.img-fluid {
+    border-radius: 10%;
+}
+
+/*------------------------------ 
+
+        NEWS (Helyi gasztro)
+
+------------------------------*/
+
+.news {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/img/logont.png);
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+.img-fluid {
+    border-radius: 10%;
+}
+
+.news-text {
+    font-size: 130%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+}
+
+
+/*------------------------------
+
+        WHY TO CHOOSE US (Szállás)
+
+------------------------------*/
+#szallas {
+    height: 100%;
+}
+
+.leiras {
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 145%;
+}
+
+.icons {
+    display: inline-block;
+    height: 75px;
+    max-width: auto;
+    padding: 10px 15px 15px 5px;
+}
+
+/* .box {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.fa-infinity {
+    display: block;
+    font-size: 400%;
+    color: #e67e22;
+    margin-bottom: 10px;
+
+} */
+
+/*------------------------------
+            Gallery
+------------------------------*/
+
+
+        /* Slideshow container */
+        .slideshow-container {
+        max-width: 500px;
+        position: relative;
+        margin: auto;
+        margin-top: 10px;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+        display: none;
+        }
+
+        /* Next & previous buttons */
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 120%;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .captiontext {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+        }
+
+        @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+        }
+
+
+/*------------------------------
+
+        Text ( Kapcsolat )
+
+------------------------------*/
+
+.contact {
+    position: relative;
+    width: auto;
+    height: 500px;
+    background-color: rgb(138, 184, 230);
+    color: #fff;
+}
+
+
+
+
+
+/*------------------------------
+
+        TESTIMONIALS (Vélemények)
+
+------------------------------*/
+
+.one {
+    position: relative;
+    width: auto;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/img/sw3_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.test-text-box {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 600px;
+}
+
+blockquote {
+    padding: 2%;
+    font-stretch: italic;
+    line-height: 145%;
+    margin-top: 40px;
+    position: relative;
+}
+
+blockquote:before {
+    content: "\201C";
+    position: absolute;
+    font-size: 200%;
+    display: block;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size:  90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
